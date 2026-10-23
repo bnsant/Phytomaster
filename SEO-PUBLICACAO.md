@@ -41,7 +41,7 @@ Revisão: 14/10/2026. Landing page local; domínio de publicação ainda não de
 5. Validar a URL publicada no Search Console, Rich Results Test e PageSpeed Insights. Solicitar indexação após publicação.
 6. Configurar a conversão do Google Ads com o ID e rótulo reais da conta. Clique no WhatsApp é uma intenção de contato, não confirmação de orçamento ou venda. Nenhuma tag ou coleta foi ativada nesta etapa.
 7. Confirmar as URLs individuais de Morosil e Eva360™ e o link oficial de privacidade, se disponível. Não inserir links presumidos.
-8. Publicar somente index.html, styles.css, product-motion.js, robots.txt e os assets usados. Excluir capturas de conferência, este documento, arquivos de teste e PNGs originais do pacote público.
+8. Publicar somente index.html, styles.css, product-motion.js, capsule-motion.js, floating-contact.js, robots.txt e os assets usados. Excluir capturas de conferência, este documento, arquivos de teste e originais não utilizados do pacote público.
 
 ## Referências consultadas
 

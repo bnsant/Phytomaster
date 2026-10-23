@@ -16,11 +16,11 @@
   <meta name="twitter:description" content="Envie sua receita e solicite orçamento de manipulados pelo WhatsApp. Phytomaster, há mais de 20 anos em Florianópolis.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <!-- Set the self-referencing canonical and og:url when the public landing-page URL is confirmed. -->
-  <link rel="preload" as="image" href="assets/hero-modelo.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/novohero-hq.webp" type="image/webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261024">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -83,14 +83,12 @@
     <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="hero-split">
         <div class="hero-panel hero-panel--portrait">
+          <img class="hero-photo" src="assets/novohero-hq.webp" alt="Vitamina C 20%, hidratante facial, caramelo de creatina e ômega 3, 6 e 9 da Phytomaster em bancada de pedra" width="1678" height="937" fetchpriority="high" decoding="async">
           <div class="hero-content">
             <h1 id="hero-title">Farmácia de<br>manipulação<br><em>em Florianópolis.</em></h1>
             <p class="hero-lead">Envie sua receita pelo WhatsApp para orçar sua fórmula manipulada. Consulte valores e condições de preparo e entrega com nossa equipe.</p>
             <div class="hero-actions"><a class="button button-primary" href="https://wa.me/554899048888?text=Ol%C3%A1%21%20Gostaria%20de%20enviar%20minha%20receita%20para%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Enviar minha receita</a></div>
           </div>
-        </div>
-        <div class="hero-panel hero-panel--product">
-          <img class="hero-product hero-product--sand" src="assets/hero-areia.webp" alt="Sachê vermelho Phytomaster na areia ao lado de uma raquete e óculos de sol" width="1122" height="1402" decoding="async">
           <div class="hero-metric"><div class="hero-metric-heading">Mais de</div><strong>20<span>+</span></strong><span class="hero-metric-caption">anos de experiência<br>em manipulação</span></div>
         </div>
       </div>
@@ -145,6 +143,25 @@
       </div>
     </section>
 
+    <section class="capsule-section" id="por-dentro" aria-labelledby="capsule-title">
+      <div class="wrap capsule-panel">
+        <div class="capsule-copy">
+          <h2 id="capsule-title">Cada detalhe.<br><em>Uma nova possibilidade.</em></h2>
+        </div>
+        <div class="capsule-visual">
+          <video class="capsule-video" src="assets/piulaagoravai-loop.webm" autoplay muted loop playsinline preload="metadata" poster="assets/piulaagoravai-poster.webp" width="720" height="1280" aria-label="Ilustração animada de uma cápsula vermelha se abrindo" data-fallback="assets/piulaagoravai-loop.mp4"></video>
+          <div class="capsule-label capsule-label--shell">
+            <h3>A cápsula</h3>
+            <p>Uma das formas de apresentação dos manipulados.</p>
+          </div>
+          <div class="capsule-label capsule-label--formula">
+            <h3>A fórmula</h3>
+            <p>Composição e dosagem orientadas pela prescrição.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="budget editorial-section" id="orcamento" aria-labelledby="budget-title">
       <div class="wrap editorial-grid">
         <div class="editorial-heading">
@@ -152,11 +169,7 @@
           <a class="editorial-link" href="https://wa.me/554899048888?text=Ol%C3%A1%21%20Quero%20enviar%20minha%20receita%20para%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Enviar receita para orçamento <span aria-hidden="true">↗</span></a>
         </div>
         <div class="editorial-copy budget-copy">
-          <div>
-            <h3>O que consultar</h3>
-            <p>Peça os valores da fórmula, o prazo de preparo e as condições de recebimento. A confirmação dessas informações deve ser feita diretamente com a equipe para o seu pedido.</p>
-          </div>
-          <p class="editorial-note">Para dúvidas sobre os dados da prescrição, fale com a farmácia antes de solicitar o preparo.</p>
+          <img class="budget-asset" src="assets/PILULAasset.png" alt="Frasco vermelho com cápsulas" width="1024" height="756" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -191,7 +204,7 @@
 
   <footer id="contato">
     <div class="wrap footer-inner">
-        <a class="footer-brand" href="#inicio" aria-label="Phytomaster, voltar ao início"><img src="assets/phytomaster-logo.webp" alt="Phytomaster" width="180" height="48" loading="lazy"></a>
+        <a class="footer-brand" href="#inicio" aria-label="Phytomaster, voltar ao início"><img src="assets/phytomaster-logo.webp" alt="Phytomaster" width="180" height="48"></a>
         <h2 class="footer-heading">Farmácia de manipulação em Florianópolis</h2>
         <nav class="footer-links" aria-label="Canais da Phytomaster">
           <a href="https://wa.me/554899048888?text=Ol%C3%A1%21%20Quero%20solicitar%20um%20or%C3%A7amento%20de%20manipulado." target="_blank" rel="noopener noreferrer">WhatsApp</a>
@@ -201,7 +214,14 @@
     </div>
     <div class="wrap footer-bottom">© 2026 Phytomaster</div>
   </footer>
-  <a class="mobile-cta" href="https://wa.me/554899048888?text=Ol%C3%A1%21%20Quero%20enviar%20minha%20receita%20para%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">Enviar receita pelo WhatsApp <span aria-hidden="true">↗</span></a>
+  <a class="whatsapp-float" href="https://wa.me/554899048888?text=Ol%C3%A1%21%20Quero%20enviar%20minha%20receita%20para%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" aria-label="Enviar receita pelo WhatsApp da Phytomaster" title="Fale com a Phytomaster pelo WhatsApp">
+    <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
+      <path d="M27.2 15.7a11.1 11.1 0 0 1-16.5 9.7l-6 1.8 1.9-5.8A11.1 11.1 0 1 1 27.2 15.7Z" stroke="currentColor" stroke-width="2.1" stroke-linejoin="round"/>
+      <path d="M11.8 10.1c-.5-.1-.9.2-1.2.6-.5.6-.9 1.5-.7 2.4.7 3.6 4.4 7.3 8.1 8 .9.2 1.7-.2 2.3-.7.4-.3.7-.7.6-1.2l-.4-1.3c-.1-.4-.6-.7-1-.6l-1.8.5c-1.8-.8-3.1-2.1-3.9-3.9l.5-1.8c.1-.4-.2-.9-.6-1l-1.9-.5Z" fill="currentColor"/>
+    </svg>
+  </a>
   <script src="product-motion.js" defer></script>
+  <script src="capsule-motion.js?v=autoplay-2" defer></script>
+  <script src="floating-contact.js" defer></script>
 </body>
 </html>
