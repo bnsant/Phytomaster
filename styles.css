@@ -55,6 +55,8 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 .button span { font-size: 18px; font-weight: 300; }
 .hero .button-primary { background: #fff; color: #111; }
 .hero .button-primary:hover { background: #f4f0ed; }
+.hero .button-whatsapp { background: #25d366; color: #111; }
+.hero .button-whatsapp:hover { background: #1fbd59; color: #111; }
 .hero-metric { position: absolute; right: var(--hero-card-right); bottom: 24px; z-index: 2; display: flex; flex-direction: column; width: var(--hero-card-width); padding: 16px; border-color: rgba(255, 255, 255, .1); background: rgba(30, 28, 27, .22); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
 .hero-metric-heading { font-size: 12px; line-height: 1.25; }
 .hero-metric strong { margin-top: 10px; font-size: 70px; font-weight: 200; line-height: .9; letter-spacing: -.09em; }
@@ -103,8 +105,8 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 .location-actions svg { width: 18px; height: 18px; flex: 0 0 18px; }
 .location-actions .location-route { background: #c50303; color: #fff; }
 .location-actions .location-route:hover { background: #a60303; transform: translateY(-2px); }
-.location-actions .location-whatsapp { border-color: #d8d3cf; background: transparent; color: #292321; text-decoration: none; }
-.location-actions .location-whatsapp:hover { border-color: #c50303; background: #fff5f3; color: #c50303; transform: translateY(-2px); }
+.location-actions .location-whatsapp { border-color: #25d366; background: #25d366; color: #111; text-decoration: none; }
+.location-actions .location-whatsapp:hover { border-color: #1fbd59; background: #1fbd59; color: #111; transform: translateY(-2px); }
 .location-actions .button:active { transform: translateY(0); }
 .eyebrow { margin-bottom: 20px; font-size: 11px; font-weight: 500; letter-spacing: .13em; text-transform: uppercase; }
 .section-heading { display: grid; grid-template-columns: 1.1fr .9fr; gap: 80px; align-items: end; margin-bottom: 52px; }
